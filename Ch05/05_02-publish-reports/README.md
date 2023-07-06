@@ -118,3 +118,23 @@ pipeline {
     }
 }
 ```
+
+
+
+
+
+Go to to your jenkins and install below 
+sudo apt install python3
+sudo apt install python3=venv
+Below steps just to verify everyting is installed
+python3 --version
+python3 -m venv test
+ls
+. test/bin/activate
+
+
+Create a pipeline from SCM put url
+https://github.com/isaevdd21/pipeline-jenkins-dan.git
+branch main 
+path to jenkins file:
+Ch05/05_02-publish-reports/Jenkinsfile
