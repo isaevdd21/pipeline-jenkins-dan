@@ -18,7 +18,7 @@ Launch method: Launch agents via ssh
    - Kind : ssh user with private key
     - ID : linux
     - Desciption: linux
-    - userbane : ubuntu 
+    - username : ubuntu 
     - Private key: enter directly 
      - go to where your key is located and open it with cat and copy paste to a field
     Then on credentials choose ubuntu(linux)
